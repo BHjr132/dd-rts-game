@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114515920743271278}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrain: {fileID: 0}
   panSpeed: 10
-  zoomSpeed: 90
+  zoomSpeed: 750
   rotationSpeed: 60
   mousePanMultiplier: 0.1
   mouseRotationMultiplier: 0.2

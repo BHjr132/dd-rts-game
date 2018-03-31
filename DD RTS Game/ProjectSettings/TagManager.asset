@@ -11,6 +11,7 @@ TagManager:
   - Other Structure
   - Friendly Unit
   - Other Unit
+  - MinimapCamera
   layers:
   - Default
   - TransparentFX

@@ -6,20 +6,19 @@ public class MousePoint : MonoBehaviour {
 
     RaycastHit hit;
 
+    public GameObject Target;
+
     private float raycastLength = 500;
 
     void Update()
     {
-        GameObject Target = GameObject.Find("Target");
-
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if(Physics.Raycast(ray, out hit, raycastLength))
         {
-            Debug.Log(hit.collider.name);
             if(hit.collider.name == "MapMesh" || hit.collider.name == "Water")
             {
-                Target.transform.position = hit.point;
+
             }
         }
 
